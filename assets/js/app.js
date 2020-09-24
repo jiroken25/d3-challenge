@@ -268,7 +268,7 @@ d3.csv("assets/data/data.csv").then(function(data) {
    };
    function obesitychange (){
     x = xselection[document.getElementsByClassName("active")[0].id];
-    y = poverty_data;
+    y = obesity_data;
     d3.select("svg").remove();
     generate_scatter(x,y)
 
